@@ -1,1 +1,102 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+h2 {
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	background-color: lightgrey;
+	word-spacing: 2px;
+}
+
+@media (min-width: 992px) {
+	.columnone, .columntwo, .columnthree {
+		float: left;
+		border: 1px, solid black;
+		width: 33%;
+		padding:15px;
+
+	}	
+}
+	
+@media (min-width: 768px) and (max-width: 991px) {
+	.columnone, .columntwo {
+		float: left;
+		border: 1px, solid black;
+		width: 50%;
+		padding: 10px;
+	}
+}
+	
+@media (min-width: 768px) and (max-width: 991px) {
+	.columnthree {
+		float: left;
+		border: 1px, solid black;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.columnone, .columntwo, .columnthree {
+		float: left;
+		border: 1px, solid black;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+.row {
+	width: 100%;
+	position: relative;
+}
+
+p{
+	border: solid;
+	height: 150px;
+	overflow: hidden;
+	width: 100%; 
+	margin-left: auto; 
+	margin-left: auto;
+
+	clear: right;
+	padding: 60px;
+	border: solid, 1px black;
+}
+
+h2.one {
+	float: right;
+	position: relative;
+	top: 41px;
+	left: -1px;
+	background-color: salmon;
+	border: solid 1px black;
+}
+
+h2.two {
+	float: right;
+	position: relative;
+	top: 41px;
+	left: -1px;
+	background-color: red;
+	border: solid 1px black;
+}
+
+
+h2.three {
+	float: right;
+	position: relative;
+	top: 41px;
+	left: -1px;
+	background-color: yellow;
+	border: solid 1px black;
+}
+
 
